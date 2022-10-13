@@ -1,6 +1,6 @@
 driverClass = com.mysql.cj.jdbc.Driver
 username = root
 password = omgd45945.+
-url1 = jdbc:mysql://localhost:3306/loadsql
-url2 = jdbc:mysql://localhost:3306/itcast
-url3 = jdbc:mysql://localhost:3306/test
+url1 = jdbc:mysql://localhost:3306/loadsql?rewriteBatchedStatements=true
+url2 = jdbc:mysql://localhost:3306/itcast?rewriteBatchedStatements=true
+url3 = jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true
