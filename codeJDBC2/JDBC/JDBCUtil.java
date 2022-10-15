@@ -28,7 +28,7 @@ public final class JDBCUtil {
         try {
             Properties pro = new Properties();
             //加载配置文件
-            pro.load(new FileInputStream("JDBC/jdbc"));
+            pro.load(new FileInputStream("JDBC/jdbc.properties"));
             //获取配置文件对应信息
             driverClass = pro.getProperty("driverClass");
             url1 = pro.getProperty("url1");

@@ -1,6 +1,7 @@
 package DAO2;
 
 import JDBC.JDBCUtil;
+import JDBC.JDBCUtils;
 import org.junit.Test;
 
 import java.sql.Connection;
@@ -15,8 +16,8 @@ public class CustomerDAOImplTest {
 
     {
         try {
-            conn = JDBCUtil.getConnection("test");
-        } catch (SQLException throwables) {
+            conn = JDBCUtils.getConnection3();
+        } catch (Exception throwables) {
             throwables.printStackTrace();
         }
     }
