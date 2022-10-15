@@ -2,6 +2,7 @@
   <dictionary name="machsh">
     <words>
       <w>cust</w>
+      <w>dbutils</w>
       <w>examstudent</w>
       <w>itcast</w>
       <w>loadsql</w>
